@@ -26,23 +26,29 @@
 .logo {
   display: flex;
   align-items: center;
-  gap: 0.3rem;
-  font-family: var(--font-display);
-  font-size: 1.6rem;
-  font-weight: 800;
-  color: var(--ink);
-  letter-spacing: -0.03em;
+  gap: 0.4rem;
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.7rem;
+  font-weight: 900;
+  color: var(--teal);
+  letter-spacing: -0.04em;
+  transition: transform 0.3s;
+}
+.logo:hover {
+  transform: scale(1.02);
 }
 .logoMark {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 34px; height: 34px;
-  background: var(--grad-accent);
+  width: 38px; height: 38px;
+  background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%);
   color: white;
-  border-radius: 9px;
-  font-size: 1rem;
-  font-weight: 800;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  font-weight: 900;
+  box-shadow: 0 4px 15px rgba(14, 165, 233, 0.4);
+  text-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
 .links {
   list-style: none;

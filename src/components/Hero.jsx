@@ -1,5 +1,6 @@
 import styles from './Hero.module.css'
 import { DollarSign, CheckCircle, Zap, Building } from 'lucide-react'
+import Spline from '@splinetool/react-spline'
 const stats = [
   { value: '2,000+', label: 'Landlords' },
   { value: '5,000+', label: 'Properties' },
@@ -53,11 +54,9 @@ export default function Hero() {
         <div className={styles.right}>
           <div className={styles.dashboardWrap}>
             <div className={styles.dashboardGlow} />
-            <img
-              src="https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&h=600&fit=crop&q=80"
-              alt="PG Management Dashboard"
-              className={styles.dashImg}
-            />
+            <div className={styles.dashVid} style={{ overflow: 'hidden', display: 'flex', alignItems: 'center', justifyContent: 'center', background: '#0f172a' }}>
+              <Spline scene="https://prod.spline.design/6Wq1Q7YGyM-iab9i/scene.splinecode" />
+            </div>
             <div className={`${styles.floatCard} ${styles.card1}`}>
               <span className={styles.cardIcon}><DollarSign size={24} color="#2563eb" /></span>
               <div>
