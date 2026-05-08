@@ -3,3 +3,5 @@ dist
 .env
 jmdnest-project.zip
 .DS_Store
+
+.vercel

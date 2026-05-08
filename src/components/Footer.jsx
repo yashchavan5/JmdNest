@@ -1,4 +1,4 @@
-import { Twitter, Linkedin, Youtube, Facebook, Trophy, Lock, CheckCircle } from 'lucide-react'
+import { MessageCircle, Briefcase, Video, Users, Trophy, Lock, CheckCircle } from 'lucide-react'
 import styles from './Footer.module.css'
 
 const cols = [
@@ -35,7 +35,7 @@ export default function Footer() {
               and property managers across India and beyond.
             </p>
             <div className={styles.socials}>
-              {[{icon: <Twitter size={18}/>, key: 'twitter'}, {icon: <Linkedin size={18}/>, key: 'linkedin'}, {icon: <Youtube size={18}/>, key: 'youtube'}, {icon: <Facebook size={18}/>, key: 'facebook'}].map(s => (
+              {[{icon: <MessageCircle size={18}/>, key: 'twitter'}, {icon: <Briefcase size={18}/>, key: 'linkedin'}, {icon: <Video size={18}/>, key: 'youtube'}, {icon: <Users size={18}/>, key: 'facebook'}].map(s => (
                 <a key={s.key} href="#" className={styles.social}>{s.icon}</a>
               ))}
             </div>
