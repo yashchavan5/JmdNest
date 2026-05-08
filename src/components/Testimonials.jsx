@@ -5,19 +5,19 @@ import styles from './Testimonials.module.css'
 const testimonials = [
   {
     quote: "JmdNest completely transformed how we handle invoicing and collections. 100% of our payments are now collected online with a very low failure rate — a game-changer.",
-    name: 'Jayesh Deshmukh', role: 'Founder & CEO, Housr', avatar: 'JD', color: '#3b5bdb', rating: 5,
+    name: 'Jayesh Deshmukh', role: 'Founder & CEO', avatar: 'JD', color: '#3b5bdb', rating: 5,
   },
   {
     quote: "With multi-city operations, managing everything was a challenge. JmdNest customized the platform to fit our unique workflows and now it powers our entire operations seamlessly.",
-    name: 'Priya Mehta', role: 'Operations Head, StayAbode', avatar: 'PM', color: '#0f9488', rating: 5,
+    name: 'Aditya Gaikwad ', role: 'Founder & CEO', avatar: 'PM', color: '#0f9488', rating: 5,
   },
   {
     quote: "The digital KYC and e-signature feature saved us hours every week. What used to take days for onboarding now happens in minutes. Our tenants love it too.",
-    name: 'Rahul Kapoor', role: 'Property Manager, Zolo Stays', avatar: 'RK', color: '#7c3aed', rating: 5,
+    name: 'Amey Kadam', role: 'Founder & CEO', avatar: 'RK', color: '#7c3aed', rating: 5,
   },
   {
     quote: "The complaint management system and food management module alone are worth it. Our tenants feel heard and our staff is no longer overwhelmed.",
-    name: 'Sneha Joshi', role: 'Co-founder, NestAway', avatar: 'SJ', color: '#d97706', rating: 5,
+    name: 'Sneha Joshi ', role: 'Co-founder, NestAway', avatar: 'SJ', color: '#d97706', rating: 5,
   },
   {
     quote: "We manage 12 PGs across 4 cities. JmdNest gives us a single dashboard for everything. Going back to spreadsheets is unthinkable now.",
